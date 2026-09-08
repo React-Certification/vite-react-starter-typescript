@@ -2,7 +2,6 @@
   "name": "vite-react-starter-typescript",
   "private": true,
   "version": "0.0.0",
-  "packageManager": "npm@12.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -28,5 +27,9 @@
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.30.1",
     "vite": "^6.3.5"
+  },
+  "engines": {
+    "node": ">=22",
+    "npm": ">=10"
   }
 }
